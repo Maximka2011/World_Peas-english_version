@@ -130,7 +130,8 @@ nav.open button.burger {
 .name {
     color: #426B1F;
     font-family: "Edu AU VIC WA NT Pre", sans-serif;
-    font-size: 32px;    
+    /* font-size: 32px;  */
+    font-size: 37px; 
 }
 
 .language {
@@ -440,6 +441,7 @@ nav.lang_open .up_deg {
 }
 
 .year {
+    font-size: 18.5px;
     color: #4f7a2a;
     font-family: "Inter", sans-serif;
 }
@@ -555,13 +557,5 @@ nav.lang_open .up_deg {
         border-left-color: transparent;
         border-right-color: #f1f1f1;
         border-bottom-color: #f1f1f1;
-    }
-}
-
-@media screen and (max-Width: 480px) {
-    .name {
-        color: #000000;
-        font-family: "Edu AU VIC WA NT Pre", sans-serif;
-        font-size: 37px;    
     }
 }
