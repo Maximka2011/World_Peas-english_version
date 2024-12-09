@@ -557,3 +557,11 @@ nav.lang_open .up_deg {
         border-bottom-color: #f1f1f1;
     }
 }
+
+@media screen and (max-Width: 480px) {
+    .name {
+        color: #000000;
+        font-family: "Edu AU VIC WA NT Pre", sans-serif;
+        font-size: 37px;    
+    }
+}
