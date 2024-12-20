@@ -402,8 +402,9 @@ nav.lang_open .up_deg {
 }
 
 .block_our_shop {
+    font-size: clamp(17px, 1.875vh, 30px);
     margin: 0;
-    width: 190px;
+    width: 255px;
     display: flex;
     justify-content: center;
 }
