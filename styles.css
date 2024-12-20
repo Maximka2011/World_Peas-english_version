@@ -363,6 +363,15 @@ nav.lang_open .up_deg {
     align-items: center;
 }
 
+.flex_for_adapt_california {
+    margin-top: 40px;
+    margin-left: 15px;
+    width: 940px;
+    display: flex;
+    align-items: baseline;
+    justify-content: space-evenly;
+}
+
 .flex_footer {
     display: flex;
     align-items: center;
@@ -410,14 +419,18 @@ nav.lang_open .up_deg {
 }
 
 .text_about_California {
-    font-size: 14px;
+    font-size: clamp(14px, 1.875vh, 30px);
     font-family: "Inter", sans-serif;
     margin-top: 21px;
 }
 
+.text_about_California_adapt {
+    display: none;
+}
+
 .what_we_believe {
     font-family: "Inter", sans-serif;
-    font-size: 14;
+    font-size: clamp(14px, 2.188vh, 35px);
     margin-top: 156px;
     margin-bottom: 10px;
 }
@@ -498,6 +511,16 @@ nav.lang_open .up_deg {
         margin-bottom: 50px;
         display: flex;
         
+    }
+
+    .text_about_California {
+        display: none;
+    }
+
+    .text_about_California_adapt {
+        display: block;
+        font-size: clamp(14px, 1.875vh, 30px);
+        font-family: "Inter", sans-serif;
     }
 }
 
